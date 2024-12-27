@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+      - master
+      - release
+      - develop
 jobs:
   lint:
     runs-on: ubuntu-latest
